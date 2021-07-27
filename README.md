@@ -6,3 +6,7 @@ Everything is contained within `./mysite`. This is from the standard polls Djang
 
 Under `./mysite/polls/views.py`, you will find an example of a RESTful endpoint for a Python function, without the underlying model or serialization. See the HTTP request of this endpoint under `./mysite/Demo.ipynb`.
 
+To run, `cd` to `./mysite` and execute:
+```bash
+python manage.py runserver
+```
